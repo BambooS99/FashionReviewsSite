@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+// this will center the element
+.center-div{
+   
+    text-align: center;
+}
+
+//for child classes and divs, this can be used to not center them 
+.not-center-div {
+text-align: left;
+display: inline-block;
+width: 200px;  /* Specify width */
+margin: 10px;  /* Add some space between elements */
+}
