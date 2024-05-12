@@ -1,7 +1,34 @@
 <div class="center-div">
-  <button class="collection not-center-div text-align-center">
+  <button
+    #dropdownbtn
+    class="dropdownbtn collection not-center-div text-align-center"
+    (click)="toggleDropdownbtn()"
+  >
     Collection
   </button>
+  <div class="dropdown-content">
+    <button
+      class="collection not-center-div text-align-center dropdown-content"
+    >
+      Shirts
+    </button>
+    <button
+      class="collection not-center-div text-align-center dropdown-content"
+    >
+      Pants
+    </button>
+    <button
+      class="collection not-center-div text-align-center dropdown-content"
+    >
+      Shoes
+    </button>
+    <button
+      class="collection not-center-div text-align-center dropdown-content"
+    >
+      Accessories
+    </button>
+  </div>
+
   <button class="collection not-center-div text-align-center">
     Accessories
   </button>

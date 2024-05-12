@@ -13,3 +13,11 @@
 .text-align-center {
   text-align: center;
 }
+
+.dropdown-content {
+  display: none; /* hidden by default */
+}
+
+.dropdown-content.show {
+  display: block; /* show when toggled */
+}
